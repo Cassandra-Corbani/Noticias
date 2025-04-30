@@ -1,16 +1,29 @@
-.grupo {
-
-    border: 1px solid red;
- 
+.cabecalho {
+    background: red;
     display: flex;
- 
-    flex-direction: column;
- 
-    height: 200px;
- 
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
     align-items: center;
- 
-    justify-content: space-around;
- 
- }
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .foto {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
   
+  .usuario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
