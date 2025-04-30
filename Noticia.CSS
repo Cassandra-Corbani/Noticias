@@ -35,8 +35,6 @@ body {
     border-radius: 50%;
     object-fit: cover;
   }
-  
-  /* Notícias lado a lado */
   .noticias-principais {
     display: flex;
     justify-content: space-between;
@@ -81,4 +79,37 @@ body {
   
   .noticia a:hover {
     text-decoration: underline;
+  }
+  .lista-noticias {
+    background-color: #fff;
+    padding: 40px;
+  }
+  
+  .lista-noticias h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #003366;
+    border-bottom: 2px solid #d4bfbf;
+    padding-bottom: 10px;
+  }
+  
+  .noticia-lista {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd; /* Linha separadora */
+  }
+  
+  .noticia-lista:last-child {
+    border-bottom: none; /* Remove a linha da última notícia */
+  }
+  
+  .noticia-lista h3 {
+    font-size: 20px;
+    margin: 0 0 5px;
+    color: #630066;
+  }
+  
+  .noticia-lista p {
+    margin: 0;
+    font-size: 15px;
+    color: #444;
   }
